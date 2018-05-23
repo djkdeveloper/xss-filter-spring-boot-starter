@@ -2,6 +2,7 @@
 springboot auto xss 
 
 目前支持3种入参数xss过滤
+
     @RequestMapping("/test1")
     public String test1(String name) {
         log.error("name:{}", name);
@@ -18,9 +19,10 @@ springboot auto xss
 
         return name;
     }
+    
 
 
-@RequestMapping("/test3")
+    @RequestMapping("/test3")
     public Params test3(@RequestBody Params params) {
         log.error("hello:{}", params);
         return params;
