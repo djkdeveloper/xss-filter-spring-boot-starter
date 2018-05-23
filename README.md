@@ -1,5 +1,15 @@
 # xss-filter-spring-boot-starter
-springboot auto xss 
+springboot auto xss
+
+使用方法
+在项目的pom.xml中加入依赖即口
+
+    <dependency>
+            <groupId>com.djk</groupId>
+            <artifactId>xss-filter-spring-boot-starter</artifactId>
+            <version>0.0.1</version>
+    </dependency>
+
 
 目前支持3种入参数xss过滤
 
